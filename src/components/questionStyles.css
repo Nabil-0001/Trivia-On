@@ -1,0 +1,128 @@
+.answers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.break{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    font-family: 'Silkscreen';
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+.break:hover,
+.break:focus {
+  background-color: rgb(255, 122, 122);
+}
+
+.question-title{
+    font-family: 'Silkscreen';
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    text-overflow: ellipsis;
+    display: block;
+    font-size: 150%;
+    line-height: 1em; /* a */
+    max-height: 4em; /* a x number of line to show (ex : 2 line)  */
+    font-weight: 1;
+    padding-left: 5%;
+    padding-right: 5%;
+    color:aliceblue;
+}
+
+.comment{
+  font-family: 'Silkscreen';
+  font-weight: 1500;
+  padding-left: 5%;
+  padding-right: 5%;
+  color:aliceblue;
+}
+
+.button1{
+    background-color: blue;
+    color: aliceblue;
+    font-family: 'Silkscreen';
+    font-size: large;
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 5%;
+}
+.button1:hover,
+.button1:focus {
+  background-color: rgb(80, 80, 250);
+}
+
+.button2{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    font-family: 'Silkscreen';
+    font-size: large;
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 5%;
+}
+.button2:hover,
+.button2:focus {
+  background-color: rgb(255, 81, 81);
+}
+
+.button3{
+    background-color: green;
+    color: aliceblue;
+    font-family: 'Silkscreen';
+    font-size: large;
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 5%;
+}
+.button3:hover,
+.button3:focus {
+  background-color: rgb(40, 171, 40);
+}
+
+.button4{
+    background-color: orangered;
+    color: aliceblue;
+    font-family: 'Silkscreen';
+    font-size: large;
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 5%;
+}
+.button4:hover,
+.button4:focus {
+  background-color: rgb(255, 132, 87);
+}
